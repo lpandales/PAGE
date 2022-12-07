@@ -1,0 +1,121 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.fondo {
+  background-image: url("../images/Image\ 4.webp");
+  background-size: cover;
+}
+
+header {
+  background-color: #D6234A;
+}
+
+nav ul {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
+li a {
+  padding: 15px 10px;
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  background-color: #D6234A;
+}
+
+li a img {
+  position: fixed;
+}
+
+.perfil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10% 20%;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10% 20%;
+}
+
+section .user {
+  text-align: center;
+}
+
+section img {
+  width: 300px;
+  margin: auto;
+}
+
+section form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.22);
+          box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.22);
+}
+
+section form input {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+section form .button {
+  padding: 10px;
+  margin: 10px;
+  background-color: #30add1;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+section form a {
+  text-align: center;
+}
+
+#enunciado {
+  color: black;
+  font-size: 25px;
+}
+
+section form .contactenos {
+  color: blue;
+  font-size: 25px;
+}
+/*# sourceMappingURL=style.css.map */

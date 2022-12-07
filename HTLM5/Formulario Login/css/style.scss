@@ -1,0 +1,96 @@
+@import "reset";
+@import "colors";
+
+.fondo{
+    background-image: url("../images/buenvent.jpg");
+    background-size: cover;
+}
+
+header {
+    background-color: $primary_color;
+    
+}
+nav {
+    ul {
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+
+       }
+
+        }
+            
+            li {
+                list-style: none;
+                text-align: center;
+                a {
+                    padding: 15px 10px;
+                    text-decoration: none;
+                    color: white;
+                    &:hover {
+                        background-color: $secundary_color;
+                    }
+                    img {
+                        position: fixed;
+                    }
+                    
+                }
+            }
+        
+    
+.perfil{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 20%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 10% 20%;
+    .user{
+        text-align: center;
+    }
+    img {
+        width: 300px;
+        margin: auto;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 30px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.22);
+        input {
+            margin: 10px;
+            padding: 10px;
+            border: none;
+            border-bottom: 1px solid;
+        }
+        .button {
+            padding: 10px;
+            margin: 10px;
+            background-color: $primary_color;
+            border: none;
+            border-radius: 5px;
+            color: white;
+        }
+        a{
+            text-align: center;
+        }
+        
+      
+
+      
+    }
+}
+
+#enunciado{
+    color: white;
+    font-size: 25px;
+}
+    
+
+    
